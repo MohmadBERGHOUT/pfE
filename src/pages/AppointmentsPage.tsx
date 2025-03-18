@@ -4,7 +4,7 @@ import { format } from 'date-fns';
 
 const AppointmentsPage = () => {
   const [isFormOpen, setIsFormOpen] = useState(false);
-
+  
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
